@@ -1,0 +1,582 @@
+/* line 1, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_buttons.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  appearance: none;
+  background-color: #477dca;
+  border: 0;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.75em 1.5em;
+  text-decoration: none;
+  transition: background-color 150ms ease;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+  /* line 21, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_buttons.scss */
+  button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+    background-color: #3964a2;
+    color: #fff; }
+  /* line 27, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_buttons.scss */
+  button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled {
+    cursor: not-allowed;
+    opacity: 0.5; }
+    /* line 31, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_buttons.scss */
+    button:disabled:hover, input[type="button"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="submit"]:disabled:hover {
+      background-color: #477dca; }
+
+/* line 1, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_forms.scss */
+fieldset {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  margin: 0 0 0.75em;
+  padding: 1.5em; }
+
+/* line 8, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_forms.scss */
+input,
+label,
+select {
+  display: block;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em; }
+
+/* line 16, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_forms.scss */
+label {
+  font-weight: 600;
+  margin-bottom: 0.375em; }
+  /* line 20, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_forms.scss */
+  label.required::after {
+    content: "*"; }
+  /* line 24, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_forms.scss */
+  label abbr {
+    display: none; }
+
+/* line 29, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_forms.scss */
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea,
+select[multiple=multiple] {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  margin-bottom: 0.75em;
+  padding: 0.5em;
+  transition: border-color 150ms ease;
+  width: 100%; }
+  /* line 43, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_forms.scss */
+  input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover,
+  select[multiple=multiple]:hover {
+    border-color: #b1b1b1; }
+  /* line 47, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_forms.scss */
+  input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
+  select[multiple=multiple]:focus {
+    border-color: #477dca;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
+    outline: none; }
+  /* line 53, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_forms.scss */
+  input[type="color"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="email"]:disabled, input[type="month"]:disabled, input[type="number"]:disabled, input[type="password"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="text"]:disabled, input[type="time"]:disabled, input[type="url"]:disabled, input[type="week"]:disabled, input:not([type]):disabled, textarea:disabled,
+  select[multiple=multiple]:disabled {
+    background-color: #f2f2f2;
+    cursor: not-allowed; }
+    /* line 57, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_forms.scss */
+    input[type="color"]:disabled:hover, input[type="date"]:disabled:hover, input[type="datetime"]:disabled:hover, input[type="datetime-local"]:disabled:hover, input[type="email"]:disabled:hover, input[type="month"]:disabled:hover, input[type="number"]:disabled:hover, input[type="password"]:disabled:hover, input[type="search"]:disabled:hover, input[type="tel"]:disabled:hover, input[type="text"]:disabled:hover, input[type="time"]:disabled:hover, input[type="url"]:disabled:hover, input[type="week"]:disabled:hover, input:not([type]):disabled:hover, textarea:disabled:hover,
+    select[multiple=multiple]:disabled:hover {
+      border: 1px solid #ddd; }
+
+/* line 63, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_forms.scss */
+textarea {
+  resize: vertical; }
+
+/* line 67, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_forms.scss */
+input[type="search"] {
+  appearance: none; }
+
+/* line 71, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_forms.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin-right: 0.375em; }
+  /* line 76, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_forms.scss */
+  input[type="checkbox"] + label,
+  input[type="radio"] + label {
+    display: inline-block; }
+
+/* line 81, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_forms.scss */
+input[type="file"] {
+  margin-bottom: 0.75em;
+  width: 100%; }
+
+/* line 86, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_forms.scss */
+select {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+  width: auto; }
+
+/* line 1, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_lists.scss */
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+/* line 20, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_lists.scss */
+dl {
+  margin-bottom: 0.75em; }
+  /* line 23, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_lists.scss */
+  dl dt {
+    font-weight: bold;
+    margin-top: 0.75em; }
+  /* line 28, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_lists.scss */
+  dl dd {
+    margin: 0; }
+
+/* line 1, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_tables.scss */
+table {
+  border-collapse: collapse;
+  font-feature-settings: "kern", "liga", "tnum";
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%; }
+
+/* line 9, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_tables.scss */
+th {
+  border-bottom: 1px solid #a6a6a6;
+  font-weight: 600;
+  padding: 0.75em 0;
+  text-align: left; }
+
+/* line 16, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_tables.scss */
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.75em 0; }
+
+/* line 21, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_tables.scss */
+tr,
+td,
+th {
+  vertical-align: middle; }
+
+/* line 1, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_typography.scss */
+body {
+  color: #333;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-feature-settings: "kern", "liga", "pnum";
+  font-size: 1em;
+  line-height: 1.5; }
+
+/* line 9, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.2;
+  margin: 0 0 0.75em; }
+
+/* line 21, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_typography.scss */
+p {
+  margin: 0 0 0.75em; }
+
+/* line 25, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_typography.scss */
+a {
+  color: #477dca;
+  text-decoration: none;
+  transition: color 150ms ease; }
+  /* line 30, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_typography.scss */
+  a:active, a:focus, a:hover {
+    color: #355e98; }
+
+/* line 37, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_typography.scss */
+hr {
+  border-bottom: 1px solid #ddd;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: 1.5em 0; }
+
+/* line 45, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/base/_typography.scss */
+img,
+picture {
+  margin: 0;
+  max-width: 100%; }
+
+/* line 4, /Users/greenbloom11/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 9, /Users/greenbloom11/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/*baseline styles*/
+/* line 4, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+/* line 10, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+html, body {
+  background: #C5F7CB;
+  margin: 0;
+  box-sizing: border-box; }
+
+/* line 17, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
+  margin: 0;
+  margin-top: 0; }
+
+/* line 24, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+h1 {
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Qwigley', cursive;
+  padding-top: 2.5%;
+  padding-bottom: 14%;
+  font-size: 8em;
+  color: #3F1014; }
+
+/* line 34, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+h2 {
+  text-align: center;
+  font-size: 4em;
+  line-height: 3rem;
+  margin: 0; }
+
+/* line 42, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+h3, ul {
+  font-size: 3rem; }
+
+/* line 46, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+h4 {
+  font-size: 2.5rem; }
+
+/* line 50, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+p, li {
+  font-size: 1.8em;
+  line-height: 2.5rem; }
+
+/* line 55, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+a {
+  color: #2D07B7; }
+
+/* line 59, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+a :visited {
+  color: #3F1014; }
+
+/*header section*/
+/* line 66, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+.welcome {
+  text-align: center; }
+
+/*about me */
+/* line 71, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+.profile {
+  position: relative;
+  background-color: #d4f7d5;
+  padding-bottom: 100px; }
+  /* line 76, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+  .profile .about {
+    text-align: left;
+    display: block;
+    margin: 0 auto; }
+    /* line 81, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+    .profile .about > h2 {
+      padding-bottom: 5%;
+      text-align: center; }
+  /* line 87, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+  .profile img.me {
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    display: inline-block;
+    border-radius: 100%;
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: 5%; }
+
+/* line 102, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+#home {
+  position: fixed;
+  z-index: 1;
+  top: 27%;
+  right: 24%;
+  background: rgba(255, 255, 255, 0.75);
+  width: 50%;
+  height: 35%;
+  border: 4px solid #657156;
+  text-align: center;
+  vertical-align: middle; }
+  /* line 117, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+  #home h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.5em;
+    padding-top: 10%;
+    padding-bottom: .75rem; }
+  /* line 124, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+  #home h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 0;
+    padding-bottom: .75rem; }
+  /* line 131, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+  #home h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 2%; }
+
+/*portfolio */
+/* line 143, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+section.projects {
+  background: rgba(181, 236, 180, 0.82);
+  margin: 0 auto;
+  padding-top: 100px;
+  display: block;
+  font: #c2f9c4; }
+  /* line 150, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+  section.projects .container {
+    width: 94%;
+    margin: 0 50px;
+    padding-bottom: 20px; }
+  /* line 156, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+  section.projects #notes {
+    border-top-style: double;
+    border-color: #333; }
+    /* line 160, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+    section.projects #notes h3 {
+      padding-top: 2.5%; }
+  /* line 166, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+  section.projects img.project {
+    display: inline-block;
+    float: left;
+    position: relative;
+    width: 50%;
+    box-shadow: 13px 17px 28px 9px #290929;
+    margin-right: 50px;
+    margin-bottom: 50px; }
+  /* line 176, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+  section.projects h2 {
+    padding-bottom: 4%; }
+  /* line 180, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+  section.projects p.proj {
+    float: left;
+    display: inline;
+    font-size: 1.8em;
+    padding-top: 15%;
+    position: absolute; }
+  /* line 188, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+  section.projects p.project {
+    display: inline;
+    float: right;
+    position: absolute;
+    padding-left: 10px;
+    font-size: 1.8em; }
+
+/* line 197, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+.portfolio {
+  display: inline-block;
+  border-bottom-style: double;
+  border-color: #333;
+  margin: 10px;
+  width: 90%; }
+  /* line 204, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+  .portfolio h3 {
+    text-align: center; }
+
+/*skills section*/
+/* line 211, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+.skill {
+  background-color: #d4f7d5;
+  padding: 50px; }
+  /* line 215, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+  .skill .contain {
+    margin: 0 auto;
+    width: 100%; }
+  /* line 220, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+  .skill .skill-s {
+    display: inline;
+    padding-top: 50px;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-bottom: 5%; }
+    /* line 227, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+    .skill .skill-s strong {
+      display: block;
+      text-align: center;
+      font-size: 2rem; }
+  /* line 235, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+  .skill ul {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    width: 80%;
+    text-align: center; }
+    /* line 242, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+    .skill ul li {
+      display: inline;
+      margin: 0 auto;
+      padding-left: 10%;
+      text-align: center;
+      font-size: 1.75rem; }
+
+/*Footer*/
+/* line 254, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+footer {
+  background-color: rgba(12, 12, 11, 0.72);
+  width: 100%;
+  text-align: center;
+  color: #80BC88;
+  padding-bottom: 40px;
+  bottom: 0; }
+
+/*Button*/
+/* line 266, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+.live {
+  background-image: url("../images/Live.JPG");
+  width: 100px;
+  height: 54px;
+  border: 0;
+  background-repeat: no-repeat;
+  background-color: #3f4d3f;
+  border-color: #3F4D3F; }
+
+/* line 276, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+.git {
+  background-image: url("../images/gitHub.JPG");
+  width: 64px;
+  height: 64px;
+  background-color: transparent;
+  border: 0;
+  background-repeat: no-repeat; }
+
+/* line 285, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+.twitter {
+  background-image: url("../images/twitter.JPG");
+  width: 64px;
+  height: 64px;
+  background-color: transparent;
+  border: 0; }
+
+/* line 293, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+.mail {
+  background-image: url("../images/email.JPG");
+  width: 64px;
+  height: 64px;
+  background-color: transparent;
+  border: 0;
+  background-repeat: no-repeat; }
+
+/* line 302, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+.linkedin {
+  background-image: url("../images/linkedin.JPG");
+  width: 64px;
+  height: 64px;
+  background-color: transparent;
+  border: 0; }
+
+/* line 312, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/main.scss */
+#map-one {
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+
+/* line 1, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/navbar.scss */
+.centered-navigation {
+  background-color: #3f4d3f;
+  border-bottom: 1px solid #313c31;
+  min-height: 1.5em;
+  width: 100%;
+  z-index: 9999; }
+  /* line 27, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/navbar.scss */
+  .centered-navigation .mobile-logo {
+    display: inline;
+    float: left;
+    max-height: 1.5em;
+    padding-left: 1em; }
+    /* line 33, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/navbar.scss */
+    .centered-navigation .mobile-logo img {
+      max-height: 1.5em;
+      opacity: .6;
+      padding: .8em 0; }
+  /* line 44, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/navbar.scss */
+  .centered-navigation .centered-navigation-mobile-menu {
+    color: rgba(197, 247, 203, 0.7);
+    display: block;
+    float: right;
+    line-height: 1.5em;
+    margin: 0;
+    padding-right: 1em;
+    text-decoration: none;
+    text-transform: uppercase; }
+    /* line 58, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/navbar.scss */
+    .centered-navigation .centered-navigation-mobile-menu:focus, .centered-navigation .centered-navigation-mobile-menu:hover {
+      color: #C5F7CB; }
+  /* line 67, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/navbar.scss */
+  .centered-navigation .centered-navigation-wrapper {
+    position: relative;
+    z-index: 999; }
+  /* line 73, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/navbar.scss */
+  .centered-navigation ul.centered-navigation-menu {
+    -webkit-transform-style: preserve-3d;
+    clear: both;
+    display: none;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 0;
+    width: 100%;
+    z-index: 99999;
+    display: block;
+    text-align: center; }
+    /* line 86, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/navbar.scss */
+    .centered-navigation ul.centered-navigation-menu.show {
+      display: block; }
+  /* line 97, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/navbar.scss */
+  .centered-navigation .nav-link:first-child {
+    margin-left: 2.2em; }
+  /* line 103, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/navbar.scss */
+  .centered-navigation ul li.nav-link {
+    background: #3f4d3f;
+    display: block;
+    line-height: 1.5em;
+    overflow: hidden;
+    padding-right: 1em;
+    text-align: right;
+    width: 100%;
+    z-index: 9999;
+    font-size: 1.5rem;
+    background: transparent;
+    display: inline;
+    line-height: 1.5em; }
+    /* line 117, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/navbar.scss */
+    .centered-navigation ul li.nav-link a {
+      color: rgba(197, 247, 203, 0.7);
+      display: inline-block;
+      outline: none;
+      text-decoration: none; }
+      /* line 123, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/navbar.scss */
+      .centered-navigation ul li.nav-link a:focus, .centered-navigation ul li.nav-link a:hover {
+        color: #C5F7CB; }
+    /* line 131, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/navbar.scss */
+    .centered-navigation ul li.nav-link a {
+      padding-right: 1em; }
+  /* line 137, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/navbar.scss */
+  .centered-navigation li.logo.nav-link {
+    display: none;
+    line-height: 0;
+    display: inline; }
+  /* line 146, /Users/greenbloom11/bitmaker/agreenbloom.github.io/source/stylesheets/navbar.scss */
+  .centered-navigation .logo img {
+    margin-bottom: -0.66667em;
+    max-height: 2em;
+    opacity: 0.6; }
