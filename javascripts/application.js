@@ -10361,7 +10361,13 @@ featureLayer.on('ready', function() {
   console.log(featureLayer.getGeoJSON());
 });
 
+map.dragging.disable();
+map.touchZoom.disable();
+map.doubleClickZoom.disable();
+map.scrollWheelZoom.disable();
 
+// Disable tap handler, if present.
+if (map.tap) map.tap.disable();
 
 
 // function for pop up button
