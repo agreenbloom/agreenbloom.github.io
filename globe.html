@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>The Middleman</title>
+
+    <link href="/stylesheets/normalize.css" rel="stylesheet" /><link href="/stylesheets/all.css" rel="stylesheet" /><link href="/stylesheets/d3.css" rel="stylesheet" />
+    <script src="/javascripts/all.js"></script>
+
+     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.com/libraries/d3-legend"></script>
+    <script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+    <script src="http://d3js.org/colorbrewer.v1.min.js"></script>
+  </head>
+
+  <body class="globe">
+
+    <header>
+      <div class="cnavigation" role="banner">
+           <nav role ="navigation">
+            <ul class="nav"id="js-centered-navigation-menu" class="centered-navigation-menu show">
+              <li class="nav-link"><a href="index.html"> Toronto</a></li>
+              <li class="nav-link"><a href="globe.html"> Around the world</a></li>
+            </ul>
+            <a id="nav-toggle" href="#"><span></span></a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+
+  <div id="globe">
+    <h1> Where is Uber banned around the world</h1>
+    <h6> Use your mouse to spin the globe</h6>
+    <div class="legend">
+      <h5 id="full">full ban </h5>
+      <h5 id="suspend">suspended</h5>
+      <h5 id="partial">partial ban</h5>
+      <h5 id="operating">banned but operating</h5>
+    </div>
+  </div>
+
+
+  <p>Information not 100% accurate due to the constantly changing political landscape regarding uber globally</p>
+
+  <span class="tooltip-text"></span>
+</div>
+  </body>
+</html>

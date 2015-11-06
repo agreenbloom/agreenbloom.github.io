@@ -1,0 +1,32 @@
+"label","allowed","country","x","y"
+"Maharashta",5,"India",31,74
+"Karnataka",5,"India",24,67
+"Telengu",5,"India",41,12
+"Bulgaria",5,"Bulgaria",41,12
+"Thailand",5,"Thailand",13.75,100.48
+"Fukuoka",5,"Japan",35.68,139.76
+"South Korea",4,"South Korea",37.5663889,126.9997222
+"Italy",4,"Italy",41,12
+"Spain",4,"Spain",41.3833333,2.1833333
+"France",4,"France",42.152492,9.560016
+"Portland, Oregon",4,"USA",37 ,-122
+"Netherlands",3,"Netherlands",52.35,4.9166667
+"Germany",3,"Germany",48.15,11.5833333
+"Brussels",3,"Belgium",50.833,4.33
+"Western Australia",3,"Australia",-31.9333333,115.8333333
+"Victoria",3,"Australia",-37.8166667,144.9666667
+"hyderabad",2,"India",17.3752778,78.4744444
+"New Delhi",2,"India",28.6,77.2
+"Mumbai",2,"India",18.975,72.8258333
+"Taiwan",2,"Taiwan",23.2102778,120.1841667
+"Queensland",2,"Australia",-27.5,153.0166667
+"Cape Town ",2,"South Africa",-33.9166667,18.4166667
+"Edmonton ",2,"Canada",53.55,-113.5
+"Calgary ",2,"Canada",51,-114
+"Toronto ",2,"Canada",43,-79
+
+
+5- full ban
+4- suspended
+3- partial ban
+2 - banned but operating

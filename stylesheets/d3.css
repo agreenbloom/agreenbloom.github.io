@@ -1,0 +1,148 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+#tooltip {
+  position: absolute;
+  text-align: center;
+  font: 20px sans-serif;
+  background: blue;
+  border-radius: 8px;
+}
+
+path {
+  stroke: #415367;
+  stroke-width: 1px;
+
+}
+
+.d:hover, .d.highlighted {
+  fill: blue;
+}
+
+
+.fill {
+  fill: #fff;
+}
+
+.graticule {
+  fill: none;
+  stroke: gray;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+}
+
+
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    margin: 0 auto;
+    padding-top: 8%;
+}
+
+h1#tor {
+    padding-bottom: 2%;
+}
+
+h6 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+p {
+  text-align: center;
+}
+
+.cnavigation {
+    backround-color: green;
+}
+
+nav {
+    background: aquamarine;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 5rem;
+}
+
+ul#js-centered-navigation-menu {
+    display: inline;
+}
+
+li.nav-link {
+    display: inline-block;
+    font-size: 2em;
+    padding-left: 25%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+container{
+  width: 100%;
+  position: absolute;
+}
+
+svg{
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+#globe {
+  margin: 0 auto;
+}
+
+
+.legend {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h5 {
+    display: inline;
+    padding: 2%;
+    font-size: 1.1rem;
+}
+
+h5#full {
+    background:rgb(251,128,114);
+}
+
+h5#suspend {
+    background: rgb(190,186,218);
+}
+
+h5#partial {
+    background: rgb(255,255,179);
+}
+
+h5#operating {
+    background: rgb(141,211,199);
+}
+
+
+h5#no {
+    background:rgb(237,248,233);
+}
+
+h5#yes {
+    background: rgb(186,228,179);
+}
+
+h5#none {
+    background: rgb(116,196,118);
+}
