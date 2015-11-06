@@ -1,4 +1,7 @@
-html {
+body{
+  background: red;
+}
+/*html {
   box-sizing: border-box;
 }
 
@@ -145,4 +148,4 @@ h5#yes {
 
 h5#none {
     background: rgb(116,196,118);
-}
+}*/
