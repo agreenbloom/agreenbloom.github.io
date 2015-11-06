@@ -92,29 +92,6 @@ $(document).on('ready', function(){
 
       });
 
-  categoricalData = ["Yes","No", "No Vote"]
-
-  categoricalColors = ["rgb(237,248,233)","rgb(186,228,179)","rgb(116,196,118)"]
-
-  ordinalScale = d3.scale.ordinal()
-    .domain(categoricalData)
-    .range(categoricalColors)
-
-  verticalLegend = d3.svg.legend()
-    .labelFormat("none")
-    .cellPadding(5)
-    .orientation("vertical")
-    .units("")
-    .cellWidth(25).cellHeight(18)
-    .inputScale(ordinalScale)
-    .cellStepping(10);
-
-  d3.select("svg").append("g")
-    .attr("transform", "translate(350,360)")
-    .attr("class", "legend")
-    .call(verticalLegend);
-
-
 
 });
 
