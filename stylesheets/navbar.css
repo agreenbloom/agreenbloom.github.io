@@ -88,3 +88,6 @@
     margin-bottom: -0.66667em;
     max-height: 2em;
     opacity: 0.6; }
+  ul#js-centered-navigation-menu {
+    margin-top: 0;
+}

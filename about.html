@@ -9,11 +9,36 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title>Abby Greenbloom</title>
 
-    <link href="/stylesheets/normalize.css" rel="stylesheet" /><link href="/stylesheets/all.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,300italic|Qwigley' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet' />
+
+    <link href="/stylesheets/normalize.css" rel="stylesheet" /><link href="/stylesheets/all.css" rel="stylesheet" /><link href="/stylesheets/navbar.css" rel="stylesheet" /><link href="/stylesheets/main.css" rel="stylesheet" />
     <script src="/javascripts/all.js"></script>
+
+
   </head>
 
   <body class="about">
+
+   <header>
+      <div class="centered-navigation" role="banner">
+       <div class="centered-navigation-wrapper">
+         <a href="javascript:void(0)" class="mobile-logo">
+           <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">Menu</a>
+           <nav role ="navigation">
+            <ul class="nav"id="js-centered-navigation-menu" class="centered-navigation-menu show">
+              <li class="nav-link"><a href="about.html"> About me</a></li>
+              <li class="nav-link"><a href="projects.html"> Portfolio</a></li>
+              <li class="nav-link"><a href="skills.html">Skills</a></li>
+            </ul>
+            <a id="nav-toggle" href="#"><span></span></a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
     
 <section class="profile" >
   <div class="about" id="about-me">
@@ -30,5 +55,15 @@
 
 
 
+
+    <footer>
+   <h4>Contact Me</h4>
+     <p>&copy; Abby Greenbloom 2015</p>
+     <a href="http://github.com/agreenbloom" target="_parent"><button class ="git"></button></a>
+     <a href="http://twitter.com/agreenbloom" target="_parent"><button class ="twitter"></button></a>
+     <a href="https://ca.linkedin.com/in/abbygreenbloom" target="_parent"><button class ="linkedin"></button></a>
+     <a href="mailto:abby.greenbloom@gmail.com" target="_parent"><button class ="mail"></button></a>
+     <p></p>
+   </footer>
   </body>
 </html>
