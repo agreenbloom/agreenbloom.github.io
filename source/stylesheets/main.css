@@ -1,0 +1,297 @@
+/*baseline styles*/
+*,
+*:before,
+*:after {
+  box-sizing: box-border;
+}
+
+html, body {
+  background: #C5F7CB;
+  margin: 0;
+
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
+  margin: 0;
+  margin-top: 0;
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Qwigley', cursive;
+  padding-top: 2.5%;
+  padding-bottom: 14%;
+  font-size: 8em;
+  color: #3F1014;
+}
+
+h2 {
+  text-align: center;
+  font-size: 4em;
+  line-height: 3rem;
+  margin: 0;
+}
+
+h3, ul {
+  font-size: 3rem;
+}
+
+
+h4 {
+  font-size: 2.5rem;
+}
+
+p, li {
+  font-size: 1.8em;
+  line-height: 2.5rem;
+}
+
+a {
+  color: #2D07B7;
+}
+
+a :visited {
+  color: #3F1014;
+}
+
+/*header section*/
+.welcome {
+  text-align: center;
+}
+
+
+.profile {
+  position: relative;
+  background-color: #d4f7d5;
+  padding-bottom: 100px;
+}
+
+.profile .about {
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile .about > h2 {
+      padding-bottom: 5%;
+      padding-top: 50px;
+      text-align: center;
+}
+
+.profile img.me {
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    display: inline-block;
+    border-radius: 100%;
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: 5%;
+}
+
+#home {
+  position: fixed;
+  z-index: 1;
+  top: 27%;
+  right: 24%;
+  background: rgba(255, 255, 255, 0.75);
+  width: 50%;
+  height: 40%;
+  border: 4px solid #657156;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#home h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.5rem;
+    padding-top: 10%;
+    padding-bottom: .75rem;
+}
+
+#home h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    padding-bottom: .75rem;
+}
+
+#home h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 2%;
+}
+
+/*portfolio */
+section.projects {
+  background: rgba(181, 236, 180, 0.82);
+  margin: 0 auto;
+  padding-top: 100px;
+  display: block;
+  font: #c2f9c4;
+}
+
+section.projects .container {
+    width: 94%;
+    margin: 0 50px;
+    padding-bottom: 20px;
+}
+
+section.projects #notes {
+    border-top-style: double;
+    border-color: #333;
+}
+
+section.projects #notes h3 {
+      padding-top: 2.5%;
+}
+
+section.projects img.project {
+    display: inline-block;
+    float: left;
+    position: relative;
+    width: 50%;
+    box-shadow: 13px 17px 28px 9px #290929;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+section.projects h2 {
+    padding-bottom: 4%;
+}
+
+section.projects p.proj {
+    float: left;
+    display: inline;
+    font-size: 1.8em;
+    padding-top: 15%;
+    position: absolute;
+}
+
+section.projects p.project {
+    display: inline;
+    float: right;
+    position: absolute;
+    padding-left: 10px;
+    font-size: 1.8em;
+}
+
+.portfolio {
+  display: inline-block;
+  border-bottom-style: double;
+  border-color: #333;
+  margin: 10px;
+  width: 90%;
+}
+
+.portfolio h3 {
+    text-align: center;
+}
+
+/*skills section*/
+.skill {
+  background-color: #d4f7d5;
+  padding: 50px;
+}
+
+.skill .contain {
+    margin: 0 auto;
+    width: 100%;
+}
+.skill .skill-s {
+    display: inline;
+    padding-top: 50px;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.skill .skill-s strong {
+      display: block;
+      text-align: center;
+      font-size: 2rem;
+}
+
+.skill ul {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+.skill ul li {
+      display: inline;
+      margin: 0 auto;
+      padding-left: 10%;
+      text-align: center;
+      font-size: 1.75rem;
+}
+
+/*Footer*/
+footer {
+  background-color: rgba(12, 12, 11, 0.72);
+  width: 100%;
+  text-align: center;
+  color: #80BC88;
+  padding-bottom: 40px;
+  bottom: 0;
+  }
+
+/*Button*/
+
+.git {
+  background-image: url("../images/gitHub.JPG");
+  width: 64px;
+  height: 64px;
+  background-color: transparent;
+  border: 0;
+  background-repeat: no-repeat;
+}
+.live {
+    background: #3F4D3F;
+    color: #B7EDB7;
+    height: 56px;
+    line-height: 59px;
+    font-size: -webkit-xxx-large;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    border-style: solid;
+    border: aqua;
+};
+
+
+.twitter {
+  background-image: url("../images/twitter.JPG");
+  width: 64px;
+  height: 64px;
+  background-color: transparent;
+  border: 0;
+}
+
+.mail {
+  background-image: url("../images/email.JPG");
+  width: 64px;
+  height: 64px;
+  background-color: transparent;
+  border: 0;
+  background-repeat: no-repeat;
+}
+
+.linkedin {
+  background-image: url("../images/linkedin.JPG");
+  width: 64px;
+  height: 64px;
+  background-color: transparent;
+  border: 0;
+}
+
+#map-one {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
