@@ -9,17 +9,15 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Abby Greenbloom" %></title>
 
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,300italic|Qwigley' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet' />
+
     <%= stylesheet_link_tag "normalize", "all", "navbar", "main" %>
     <%= javascript_include_tag  "all" %>
 
 
-    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,300italic|Qwigley' rel='stylesheet' type='text/css'>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
-
-    <script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
-    <link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet' />
   </head>
 
   <body class="<%= page_classes %>">
