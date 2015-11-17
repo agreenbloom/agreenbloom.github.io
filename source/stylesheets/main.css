@@ -262,15 +262,16 @@ footer {
     text-align: center;
     border-style: solid;
     border: aqua;
-};
+}
 
 
 .twitter {
-  background-image: url("../images/twitter.JPG");
+  background-image: url("../images/twitter.jpg");
   width: 64px;
   height: 64px;
   background-color: transparent;
   border: 0;
+  background-repeat: no-repeat;
 }
 
 .mail {

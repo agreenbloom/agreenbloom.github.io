@@ -17,3 +17,5 @@ gem 'middleman-deploy'
 
 
 gem "jquery-middleman"
+
+gem "middleman-blog"
