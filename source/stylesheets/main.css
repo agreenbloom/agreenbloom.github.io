@@ -57,6 +57,10 @@ a :visited {
   color: #3F1014;
 }
 
+footer {
+      padding-top: 1%;
+}
+
 /*header section*/
 .welcome {
   text-align: center;

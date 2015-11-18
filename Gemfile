@@ -19,3 +19,6 @@ gem 'middleman-deploy'
 gem "jquery-middleman"
 
 gem "middleman-blog"
+
+# For feed.xml.builder
+gem "builder", "~> 3.0"

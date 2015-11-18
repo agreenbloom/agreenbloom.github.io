@@ -8,6 +8,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.8)
+    builder (3.2.2)
     capybara (2.4.4)
       mime-types (>= 1.16)
       nokogiri (>= 1.3.3)
@@ -144,6 +145,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  builder (~> 3.0)
   jquery-middleman
   middleman (~> 3.4.0)
   middleman-blog
