@@ -142,11 +142,6 @@ section.projects .container {
     padding-bottom: 20px;
 }
 
-section.projects #notes {
-    border-top-style: double;
-    border-color: #333;
-}
-
 section.projects #notes h3 {
       padding-top: 2.5%;
 }
@@ -240,7 +235,8 @@ footer {
   color: #80BC88;
   padding-bottom: 40px;
   bottom: 0;
-  }
+  padding-top: 5%;
+}
 
 /*Button*/
 
@@ -252,6 +248,7 @@ footer {
   border: 0;
   background-repeat: no-repeat;
 }
+
 .live {
     background: #3F4D3F;
     color: #B7EDB7;
@@ -263,15 +260,16 @@ footer {
     text-align: center;
     border-style: solid;
     border: aqua;
-};
+}
 
 
-.twitter {
-  background-image: url("../images/twitter.JPG");
+button.twitter {
+  background-image: url("../images/twitter.jpg");
   width: 64px;
   height: 64px;
   background-color: transparent;
   border: 0;
+  background-repeat: no-repeat;
 }
 
 .mail {
