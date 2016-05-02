@@ -185,7 +185,14 @@
     font-size: 1em;
   }
 
+  ul.skills {
+    width: 80%;
+    padding-left: 0px;
+    margin: 0 auto;
+  }
 
-
+  .skills > li {
+    width: 30%;
+  }
 
 }
