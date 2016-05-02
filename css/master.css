@@ -112,7 +112,7 @@ em {
   padding-bottom: 20px;
   color: #C5E6EB;
   background-image: -webkit-linear-gradient(42deg,#C5E6EB, #8C45AD);
-  background-image: linear-gradient(42deg,#C5E6EB, #8C45AD);
+  /*background-image: linear-gradient(42deg,#C5E6EB, #8C45AD);*/
 
     /*,#C5E6EB)#1ABC9C;*/
   -webkit-background-clip: text;
