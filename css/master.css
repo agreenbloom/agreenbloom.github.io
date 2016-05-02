@@ -203,8 +203,24 @@ img {
 
 #map-one {
   margin: 0 auto;
+  max-width: 90%;
 }
 
+.map > a {
+  text-decoration: none;
+}
+
+.map {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.map h3 {
+  font-size: 3em;
+  padding-top: 0ps;
+  color: #424897;
+}
 /*footer > ul{
   display: inline-block;
   width: 100%;
