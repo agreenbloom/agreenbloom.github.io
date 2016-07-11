@@ -571,138 +571,149 @@ h1 {
 }*/
 
 @media screen and (min-width: 700px) {
-
+  body{
+    border: 0 solid white;
+  }
 
   .NavArea {
-      display: block;
-      float: left;
-      position: relative;
-      overflow: hidden;
+    display: none;
+    float: left;
+    position: relative;
+    overflow: hidden;
 
-      width: 85px;
-      height: 100%;
+    width: 85px;
+    height: 100%;
   }
   .NavBtn {
-      margin: 20px 0px 0px 30px;
+    margin: 20px 0px 0px 30px;
   }
   .navlink {
-      font-size: 48px;
-      line-height: 48px;
-      letter-spacing: 0px;
-      margin: 0px 0px 15px 0px;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    margin: 0px 0px 15px 0px;
   }
 
   .Logo {
-      position: absolute;
-      top: 300px;
-      left: 28px;
+    position: absolute;
+    top: 300px;
+    left: 28px;
 
-      white-space: nowrap;
+    white-space: nowrap;
 
-      -webkit-transform: rotate(270deg);
-      -ms-transform: rotate(270deg);
-      -o-transform: rotate(270deg);
-      transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
 
-      -webkit-transform-origin: 0% 0%;
-      -ms-transform-origin: 0% 0%;
-      -o-transform-origin: 0% 0%;
-      transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    -o-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
   }
 
   .NavCaption {
-      font-size: 11px;
-      line-height: 16px;
-      letter-spacing: 2px;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 2px;
 
-      position: absolute;
-      bottom: 10px;
-      left: 27px;
+    position: absolute;
+    bottom: 10px;
+    left: 27px;
 
-      white-space: nowrap;
+    white-space: nowrap;
 
-      -webkit-transform: rotate(270deg);
-      -ms-transform: rotate(270deg);
-      -o-transform: rotate(270deg);
-      transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
 
-      -webkit-transform-origin: 0% 0%;
-      -ms-transform-origin: 0% 0%;
-      -o-transform-origin: 0% 0%;
-      transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    -o-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
   }
-
   #MenuPanel {
-      width: 50%;
-      background: #1d1d1d;
-
-      height: 100%;
-
-      opacity: 0.8;
-      z-index: 1;
+    width: 100%;
+    background: rgba(10, 14, 14, 0.67);
+    height: 5%;
+    z-index: 1;
+    left: initial;
   }
   #MenuPanel .Container {
       margin-top: 0px;
+      width: 90%;
+  }
+
+  .navlink:nth-child(1) {
+    margin-left: 10%;
+  }
+
+
+  .navlink {
+    width: 20%;
+    display: inline-block;
+    font-size: 2em;
+    padding-top: 10px;
+    font-weight: 500;
   }
 
   .PageWrapper {
-      width: auto;
-      height: 100%;
-      overflow: auto;
-      position: relative;
+    width: auto;
+    height: 100%;
+    overflow: auto;
+    position: relative;
   }
 
   .Social {
-      bottom: 5px;
+    bottom: 5px;
   }
 
   .ImageArea {
-      width: 50%;
-      height: 100%;
-      float: left;
+    width: 50%;
+    height: 100%;
+    float: left;
   }
   .ImageArea img {
-      width: 200px;
+    width: 200px;
   }
 
 
 
   .rightSection {
-      width: 50%;
-      height: 100%;
-      float: left;
+    width: 50%;
+    height: 100%;
+    float: left;
 
-      display: -ms-flex;
-      display: -webkit-flex;
-      display: -moz-flex;
-      display: flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
 
-      overflow-y: auto;
+    overflow-y: auto;
 
 
-      -ms-justify-content: center;
-      -webkit-justify-content: center;
-      -moz-justify-content: center;
-      justify-content: center;
-      -ms-align-items: center;
-      -webkit-align-items: center;
-      -moz-align-items: center;
-      align-items: center;
+    -ms-justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -ms-align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
   }
 
   .Container {
-      width: 60%;
+    width: 60%;
   }
   .Container.cssPortfolio {
     width: 90%;
     height: 100%;
-
   }
 
-
   .PortfolioText {
-      left: 0;
-      top: 0;
+    left: 0;
+    top: 0;
   }
 
 }
