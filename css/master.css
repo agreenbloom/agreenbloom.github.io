@@ -126,25 +126,6 @@ h1 {
   color: #6b6a6a;
 }
 
-#MenuPanel {
-    position: absolute;
-    width: 50%;
-    left: -100%;
-
-    display: -ms-flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: flex;
-
-    -ms-justify-content: center;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    justify-content: center;
-    -ms-align-items: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    align-items: center;
-}
 
 .PageWrapper {
     display: block;
@@ -156,27 +137,6 @@ h1 {
     margin-left: -120px;
 }
 
-.ImageArea {
-    display: block;
-    text-align: center;
-
-    display: -ms-flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: flex;
-
-    -ms-justify-content: center;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    justify-content: center;
-    -ms-align-items: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    align-items: center;
-}
-.ImageArea img {
-    width: 150px;
-}
 
 .cssHomeBg {
     background: url("../images/beach.jpg") no-repeat center center;
@@ -219,11 +179,6 @@ h1 {
     background: rgba(24, 202, 172, 0.63);
 }
 
-.rightSection {
-    background: #ffffff;
-    display: block;
-}
-
 
 .Container .NavBtn {
     font-family: 'Lato', Helvetica, sans-serif;
@@ -248,19 +203,6 @@ h1 {
     transition: all 250ms ease-in;
 }
 
-.next-page-links {
-  text-align: center;
-  padding-top: 20px;
-  font-size: 1.25em;
-}
-
-.next-page-links a {
-  padding: 0 14px;
-}
-
-.next-page-links i {
-  padding: 0 18px;
-}
 
 .contact-links i {
   padding-right: 5%;
@@ -270,349 +212,6 @@ h1 {
   text-align: left;
 }
 
-/* ----------------------------- Skills ----------------------------- */
-
-#skillmap .skills-wrapper {
-  margin-top: 10px;
-  overflow: auto;
-}
-#skillmap .skills-sunburst {
-  float: left;
-  width: 500px;
-  margin-left: -80px;
-}
-#skillmap .skills-sunburst svg {
-  font: 11px 'Source Sans Pro', sans-serif;
-  font-weight: 900;
-  cursor: pointer;
-}
-#skillmap .skills-chart {
-  float: right;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15px;
-  margin: 80px 20px 0 0;
-}
-#skillmap .skills-chart .breadcumb-text {
-  font-size: 13px;
-  font-weight: 700;
-}
-#skillmap .skills-chart #skills-chart-line {
-  fill: none;
-  stroke-width: 3.5px;
-}
-#skillmap .skills-chart .axis path,
-#skillmap .skills-chart .axis line {
-  fill: none;
-}
-#skillmap .skills-chart .x-axis path,
-#skillmap .skills-chart .y-axis path {
-  stroke: #444;
-  stroke-width: 1px;
-  shape-rendering: geometricPrecision;
-}
-/* ----------------------------- Portfolio ----------------------------- */
-.PortfolioArea {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-.fullSection {
-  position:relative;
-  width:90%;
-  max-width:960px;
-  margin-left:auto;
-  margin-right:auto;
-}
-.fullSection:after{
-  content:"";
-  display:table;
-  clear:both;
-}
-ul.projects {
-    padding-top: 45px;
-}
-
-.projects{
-  width:100%;
-  max-width:960px;
-  position:relative;
-}
-.projects:before, .projects:after{
-  content:'';
-  display:table;
-}
-.projects:after{
-  clear:both;
-}
-
-.projects li{
-  display:-webkit-box;
-  display:-webkit-flex;
-  display:-ms-flexbox;
-  display:flex;
-  -webkit-flex-flow:row wrap;
-  -ms-flex-flow:row wrap;
-  flex-flow:row wrap;
-  overflow:hidden;
-  width:100%;
-  background-color:#fff;
-  border:1px #e1e0e0 solid;
-  margin-bottom:3rem;
-}
-.projects li:before, .projects li:after{
-  content:'';
-  display:table;
-}
-.projects li:after{
-  clear:both;
-  }
-
-
-.projects li .project-description{
-  color:#565656;
-}
-
-.projects li .project-description h2{
-  text-transform:uppercase;
-  font-family: 'Lato', Helvetica, sans-serif;
-  font-weight:400;
-  font-style:normal;
-  font-size:1rem;
-  letter-spacing:.4rem;
-  padding-bottom:.5rem;
-}
-
-.projects li .project-description p{
-  padding-bottom:1rem;
-  font-size:1.5rem;
-  line-height:1.7;
-}
-
-
-.projects li .project-description a.project-link{
-  width:100%;
-  border:2px #18caac solid;
-  text-align:center;
-  font-family: 'Lato', Helvetica, sans-serif;
-  font-size:.8rem;
-  letter-spacing:.3rem;
-  text-transform:uppercase;
-  padding:1rem;
-  color:#18caac;
-}
-.projects li .project-description a.project-link:hover{
-  background-color:#18caac;
-  color:#fff;
-}
-.projects li:nth-child(even){
-  display:-webkit-box;
-  display:-webkit-flex;
-  display:-ms-flexbox;
-  display:flex;
-  -webkit-box-pack:end;
-  -webkit-justify-content:flex-end;
-  -ms-flex-pack:end;
-  justify-content:flex-end;
-  -webkit-box-align:center;
-  -webkit-align-items:center;
-  -ms-flex-align:center;
-  align-items:center;
-}
-  .projects li:nth-child(odd){
-    display:-webkit-box;
-    display:-webkit-flex;
-    display:-ms-flexbox;
-    display:flex;-webkit-box-pack:start;
-    -webkit-justify-content:flex-start;
-    -ms-flex-pack:start;
-    justify-content:flex-start;
-    -webkit-box-align:center;
-    -webkit-align-items:center;
-    -ms-flex-align:center;
-    align-items:center;
-  }
-.projects li:nth-child(odd) img{
-  -webkit-order:-1;
-  -ms-flex-order:-1;
-  -webkit-box-ordinal-group:0;
-  order:-1;
-}
-@media screen and (min-width:1025px){
-  .projects li .project-description a.project-link{
-    padding:1rem;
-  }
-  .projects li .project-description p{
-    padding-bottom:1rem;
-  }
-}
-@media screen and (min-width:320px){
-  .projects li img{
-    border-bottom:1px #f9f9f9 solid;
-    width:calc(99.999999% * 1/1);
-    -webkit-box-flex:0;
-    -webkit-flex:0 0 auto;
-    -ms-flex:0 0 auto;flex:0 0 auto;
-    }
-    .projects li img:nth-child(n){
-      margin-right:0;
-    }
-    .projects li img:last-child{
-      margin-right:0;
-    }
-    .projects li img:nth-child(0n){
-      margin-right:0;
-    }
-  .projects li:nth-child(even) img{
-    -webkit-order:-1;
-    -ms-flex-order:-1;
-    -webkit-box-ordinal-group:0;
-    order:-1;
-  }
-  .projects li .project-description{
-    padding:1.5rem 2rem 2rem;
-  }
-
-  .projects li .project-description a.project-link{
-  padding:1rem;
-  }
-
-  .projects li .project-description h2{
-    font-size:1.5rem;
-    }
-
-  .projects li .project-description h2{
-    text-align:center;
-  }
-
-  .projects li .project-description p{
-    padding-bottom:1rem;
-  }
-
-  .projects li .project-description p{
-    font-size:1rem;
-  }
-
-
-  .projects li .project-description a.project-link{
-    font-size:1rem;
-  }
-}
-@media screen and (min-width:640px){
-  .projects li .project-description p{
-    font-size:1.5rem;
-  }
-}
-
-@media screen and (min-width:768px){
-  .projects li .project-description p{
-    font-size:2rem;
-  }
-}
-
-@media screen and (min-width:960px){
-  .projects{
-    padding-top:1rem;
-  }
-
-  .projects li img{
-    border-bottom:none;
-    max-width: calc(74.999999% * 12/20);
-    -webkit-box-flex:0;-webkit-flex:0 0 auto;
-    -ms-flex:0 0 auto;flex:0 0 auto;
-  }
-  .projects li img:nth-child(n){
-    margin-right:0;
-    }
-  .projects li img:last-child{
-    margin-right:0;
-  }
-  .projects li img:nth-child(0n){
-    margin-right:0;
-    }
-  .projects li .project-description{
-    padding:2rem;
-    width:calc(99.999999% * 7.8/20);
-    -webkit-box-flex:0;
-    -webkit-flex:1 0 auto;
-    -ms-flex:1 0 auto;
-    flex:1 0 auto;
-  }
-  .projects li .project-description:nth-child(n){
-    margin-right:0;
-  }
-  .projects li .project-description:last-child{
-    margin-right:0;
-  }
-  .projects li .project-description:nth-child(17n){
-    margin-right:0;
-    }
-  .projects li .project-description h2{
-    font-size:1.8rem;
-  }
-  .projects li .project-description p{
-    font-size:1.5rem;
-    text-align:left;
-    padding-bottom:.3rem;
-  }
-
-  .projects li .project-description a.project-link{
-    font-size:.8rem;
-    padding:.5rem
-  }
-
-  .projects li:nth-child(even) h2,.projects li:nth-child(even) p{
-    text-align:left;
-  }
-
-  .projects li:nth-child(even) img{
-    -webkit-order:2;
-    -ms-flex-order:2;
-    -webkit-box-ordinal-group:3;
-    order:2;
-    border-left:1px #f9f9f9 solid;
-  }
-
-  .projects li:nth-child(odd) h2{
-    text-align:left;
-  }
-}
-
-
-
-/* ----------------------------- Social Links ----------------------------- */
-/*
-.InstaBtn {
-    background: url(/images/instagram.png) no-repeat center;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin-right: 5px;
-}
-.InstaBtn:hover {
-    background: url(/images/instagramover.png) no-repeat center;
-}
-.TwitterBtn {
-    background: url(/images/twitter.png) no-repeat center;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin-right: 5px;
-}
-.TwitterBtn:hover {
-    background: url(/images/twitterover.png) no-repeat center;
-}
-
-.FacebookBtn {
-    background: url(/images/facebook.png) no-repeat center;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin-right: 5px;
-}
-.FacebookBtn:hover {
-    background: url(/images/facebookover.png) no-repeat center;
-}*/
 
 @media screen and (min-width: 700px) {
   body{
@@ -638,69 +237,6 @@ ul.projects {
     margin: 0px 0px 15px 0px;
   }
 
-  .Logo {
-    position: absolute;
-    top: 300px;
-    left: 28px;
-
-    white-space: nowrap;
-
-    -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    transform: rotate(270deg);
-
-    -webkit-transform-origin: 0% 0%;
-    -ms-transform-origin: 0% 0%;
-    -o-transform-origin: 0% 0%;
-    transform-origin: 0% 0%;
-  }
-
-  .NavCaption {
-    font-size: 11px;
-    line-height: 16px;
-    letter-spacing: 2px;
-
-    position: absolute;
-    bottom: 10px;
-    left: 27px;
-
-    white-space: nowrap;
-
-    -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    transform: rotate(270deg);
-
-    -webkit-transform-origin: 0% 0%;
-    -ms-transform-origin: 0% 0%;
-    -o-transform-origin: 0% 0%;
-    transform-origin: 0% 0%;
-  }
-  #MenuPanel {
-    width: 100%;
-    background: rgba(10, 14, 14, 0.67);
-    height: 5%;
-    z-index: 1;
-    left: initial;
-  }
-  #MenuPanel .Container {
-      margin-top: 0px;
-      width: 90%;
-  }
-
-  .navlink:nth-child(1) {
-    margin-left: 10%;
-  }
-
-
-  .navlink {
-    width: 20%;
-    display: inline-block;
-    font-size: 2em;
-    padding-top: 10px;
-    font-weight: 500;
-  }
 
   .PageWrapper {
     width: auto;
@@ -723,140 +259,39 @@ ul.projects {
   }
 
 
-
-  .rightSection {
-    width: 50%;
-    height: 100%;
-    float: left;
-
-    display: -ms-flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: flex;
-
-    overflow-y: auto;
-
-
-    -ms-justify-content: center;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    justify-content: center;
-    -ms-align-items: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    align-items: center;
-  }
-
-  .Container {
-    width: 60%;
-  }
-  .Container.cssPortfolio {
-    width: 90%;
-    height: 100%;
-  }
-
-  .PortfolioText {
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
 
-}
-
-@media screen and (max-width: 699px) {
-
-
-  .NavArea {
-      display: block;
-      overflow: auto;
-
-      width: 100%;
-  }
-  .NavBtn {
-      float: right;
-      margin: 15px 20px 0px 0px;
-  }
-  .navlink {
-      font-size: 32px;
-      line-height: 32px;
-      letter-spacing: 0px;
-      margin: 0px 0px 15px 0px;
-      color: #1d1d1d;
-  }
-  .navlink:visited {
-      color: black;
-  }
-  .navlink:hover {
-      color:#18caac;
-  }
-  .Container .NavBtn {
-      width: 100%;
-      float: none;
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
   }
 
-  .Logo {
-      margin: 15px 0px 0px 20px;
-
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
   }
 
-  .NavCaption {
-      width: 100%;
-
-      margin: 15px 0px 0px 0px;
-      padding: 10px 0px 15px 0px;
-
-      font-size: 11px;
-      line-height: 16px;
-      letter-spacing: 2px;
-      text-align: center;
-
-      white-space: nowrap;
-  }
-
-  #MenuPanel {
-      width: 100%;
-      height: 500px;
-
-      background: #ffffff;
-
-      opacity: 0.8;
-      z-index: 2;
-  }
-
-  .PageWrapper {
-      width: 100%;
-      margin-bottom: 15px;
-  }
-
-  .Social {
-      top: 604px;
-  }
-
-  .ImageArea {
-      width: 100%;
-      height: 500px;
-  }
-
-  .rightSection {
-      width: 100%;
-  }
-
-  .Container {
-      width: 80%;
-      margin: 0px auto 0px auto;
-      padding: 100px 0px 100px 0px;
-  }
-
-  .NextBtn {
-      background: url(/images/nextret.png) no-repeat center;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-  }
-  .NextBtn:hover {
-      background: url(/images/nextretover.png) no-repeat center;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
   }
