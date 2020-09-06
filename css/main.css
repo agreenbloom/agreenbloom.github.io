@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900);
+
+html, body, form {
+    height: 100%;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 2.2em;
+    letter-spacing: 1px;
+    color: #828282;
+}
+body {
+    border: 15px solid #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+a {
+    -moz-transition: all 250ms ease-in;
+    -webkit-transition: all 250ms ease-in;
+    -o-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
+    text-decoration: none;
+    color: #18caac;
+}
+a:visited {
+    color: #18caac;
+}
+p {
+    font-size: 1.5em;
+}
+
+h1 {
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: rgba(24,202,172,1);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 18px;
+
+    padding: 0px 0px 30px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.Huge-Text {
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 38px;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    line-height: 36px;
+
+    display: block;
+}
+
+.NavBtn {
+    cursor: pointer;
+}
+
+.PageWrapper {
+    display: block;
+}
+
+.Container .NavBtn {
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    display: table;
+
+    margin: 30px 0px 35px 0px;
+
+    padding: 8px 30px 8px 30px;
+    background:#18caac;
+    color: #ffffff;
+    border: 1px solid #18caac;
+    cursor: pointer;
+
+    transition: all 250ms ease-in;
+}
+
+.modal-container {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 20px;
+}
